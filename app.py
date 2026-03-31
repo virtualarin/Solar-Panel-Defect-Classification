@@ -18,7 +18,10 @@ st.set_page_config(
 # -------------------------
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("trained_effnet_finetune.h5")
+    model = tf.keras.models.load_model(
+        "trained_effnet_finetune.h5",
+        compile=False  # 🚑 prevents deserialization crash
+    )
     return model
 
 model = load_model()
