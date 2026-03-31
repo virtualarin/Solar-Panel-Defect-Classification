@@ -1,9 +1,9 @@
-numpy
+tensorflow==2.15.0
+keras==2.15.0
+numpy==1.26.4
 pandas
 matplotlib
 seaborn
 scikit-learn
-tensorflow==2.15.0
-keras
+streamlit
 pillow
-streamlit>=1.32
