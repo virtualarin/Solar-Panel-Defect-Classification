@@ -20,7 +20,7 @@ st.set_page_config(
 def load_model():
     model = tf.keras.models.load_model(
         "trained_effnet_finetune.h5",
-        compile=False  # 🚑 prevents deserialization crash
+        compile=False
     )
     return model
 
