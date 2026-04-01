@@ -1,12 +1,30 @@
-# Solar-Panel-Defect-Classification
+# ☀️ Solar Panel Defect Classification
 
-Project Overview
-This project aims to automatically classify solar panel images into different types of faults to support predictive maintenance and reduce operational costs. Using deep-learning image classification models—the system can detect dust, snow, bird droppings, electrical damage, and physical damage on solar panel surfaces with high accuracy. The accumulation of dust, snow, bird drops etc. on the surface of solar panels reduces the efficiency of the solar modules and hence the amount of produced energy. Monitoring and cleaning solar panels is a crucial task, hence developing an optimal procedure to monitor and clean these panels is very important in order to increase modules efficiency, reduce maintenance cost and reducing the use of resources.
+End-to-end **solar panel defect classification** to classify solar panel defects using deep learning, with a deployed web app for real-time predictions.
 
-Solar Panel Image Classification
-* Clean
-* Dusty
-* Bird-drop
-* Electrical-damage
-* Physical-damage
-* Snow-covered
+## 🚀 Live Demo
+https://solar-panel-defect-classification-6wfcxnundfwnje3blfgfua.streamlit.app/
+
+## 🧠 Problem
+Manual inspection of solar panels is slow, costly, and not scalable. This project automates defect detection using image classification.
+
+## 🛠️ Tech Stack
+- Python, TensorFlow/Keras  
+- Pandas  
+- Streamlit (deployment)
+
+## ⚙️ Approach
+- Preprocessed image dataset (resize, normalization, split)  
+- Built CNN-based classification model  
+- Trained using Adam optimizer and cross-entropy loss  
+- Evaluated on validation data  
+- Deployed via Streamlit for real-time inference  
+
+## 📊 Result
+- Achieved: *83.05%*  
+- Model performs well on standard test images  
+
+## 🌍 Applications
+- Solar farm monitoring  
+- Predictive maintenance  
+- Automated inspection systems  
